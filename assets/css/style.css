@@ -1153,6 +1153,11 @@ section {
 /*--------------------------------------------------------------
 # Pricing
 --------------------------------------------------------------*/
+.pricerow {
+  align-items: center;
+  margin: auto;
+  float: center;
+}
 .pricing .box {
   padding: 20px;
   background: #fff;
@@ -1161,6 +1166,7 @@ section {
   border-radius: 5px;
   position: relative;
   overflow: hidden;
+  margin: auto;
 }
 .pricing .box h3 {
   font-weight: 400;
